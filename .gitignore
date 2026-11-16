@@ -1,0 +1,22 @@
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Terraform lock file
+# .terraform.lock.hcl should be committed
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Credentials and secrets
+*service-account*.json
+*credentials*.json
+
+# OS files
+.DS_Store
+Thumbs.db
