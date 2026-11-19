@@ -1,19 +1,18 @@
 
 variable "project_id" {
   type        = string
-  description = "El ID del proyecto de Google Cloud"
+  description = "ID del proyecto de Google Cloud"
   default     = "proyecto-demo-514900"
 }
 
 variable "region" {
   type        = string
+  description = "Region de los recursos de Google Cloud"
   default     = "us-central1"
-  description = "La región para los recursos compatibles"
 }
 
-variable "dataset_id" {
+variable "bq_location" {
   type        = string
-  default     = "lab01_dataset"
-  description = "El ID del dataset de BigQuery"
+  description = "Ubicacion de los datasets de BigQuery"
+  default     = "US"
 }
-
